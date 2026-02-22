@@ -1,10 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>DevOps CI/CD Demo</title>
+    <meta charset="UTF-8">
+    <title>CI/CD Automation Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #222;
+        }
+
+        .wrapper {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 30px;
+            background: #ffffff;
+            border: 1px solid #ddd;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin-top: 25px;
+        }
+
+        p {
+            font-size: 16px;
+            margin: 8px 0;
+        }
+
+        .status {
+            margin-top: 25px;
+            padding: 10px;
+            background: #e0e0e0;
+            display: inline-block;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 13px;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to DevOps Automation Lab</h1>
-    <p>This website is deployed using GitHub Actions + Netlify</p>
+
+    <div class="wrapper">
+        <h1>DevOps CI/CD Automation Lab</h1>
+
+        <p>This application is deployed using an automated DevOps pipeline:</p>
+
+        <h3>GitHub Actions (CI)</h3>
+        <p>Build process runs automatically on each commit.</p>
+
+        <h3>Slack ChatOps Integration</h3>
+        <p>Deployment updates are shared in Slack.</p>
+
+        <h3>Netlify Continuous Deployment (CD)</h3>
+        <p>Site redeploys automatically when changes are pushed.</p>
+
+        <div class="status">
+            Version 2 - Auto Deployment Test Successful
+        </div>
+
+        <footer>
+            Virtual Lab Experiment - End-to-End DevOps Automation
+        </footer>
+    </div>
+
 </body>
 </html>
